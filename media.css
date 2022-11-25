@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS' , snas-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: auto;
+}
+.logo{
+    width: 200px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+    z-index: 100;
+    font-size: x-large;
+    font: bolder;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3f22a4;
+    font-weight: 600;
+    transition: .2s;
+}
+nav ul li a:hover{
+    color: #f0021a;
+}
+.text-box{
+    margin-top: 130px;
+    max-width: 600px;
+}
+.text-box h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #3f22a4;
+    font-family: 'Bulgatti', sans-serif;
+    margin-left: 15%;
+}
+.text-box p{
+    font-size: 21px;
+    margin-left: 15%;
+    font-family: 'cursive' sans-serif;
+}
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #3f22a4;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    text-transform:uppercase;
+    transition: .2s;
+    right: 40%;
+    margin-left: 20%;
+
+}
+.text-box a:hover{
+    background: #f0021a;
+}
+.user-box{
+    background: #062828;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    border-radius: 20%;
+    z-index: 1;
+}
+.user-box img{
+    display: block;
+    padding-top: 100px;
+    width: 410px;
+    margin-bottom: -205px;
+    position: absolute;
+    margin-right: 50%;
+}
+.social-menu ul{
+    position: absolute;
+    bottom: 7%;
+    left: 26%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}

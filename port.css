@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(203, 186, 186);
+    width: 300px;
+    font-family: sans-serif;
+    height:100vh;
+    align-content: center;
+    align-items: center;
+    
+}
+.sidebar nav{
+    padding-left: 72px;
+    font-size: larger;
+    align-content: right;
+
+}
+.sidebar nav li{
+    list-style-type: none;
+    padding: 30px 
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+    
+}
+.main{
+    /*background-color: rgb(252, 252, 11);*/
+    width: 80vw;
+}
+.container{
+    display: flex;
+    font-family: 'sans-serif';
+   
+}
+.infocontainer{
+    /*background-color: rgb(190, 30, 97);*/
+    height: 50vh;
+    width: 70vw;
+    margin: 100px ;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+    font-family: 'sans-serif';
+}
+
+.moreabout{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    padding: 5px 8px;
+    border: 10px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 20px;
+    margin: 0 7px;
+    cursor: pointer;
+    shape-margin: pill;
+}
+.devPic img{
+    height:45vh;
+}
